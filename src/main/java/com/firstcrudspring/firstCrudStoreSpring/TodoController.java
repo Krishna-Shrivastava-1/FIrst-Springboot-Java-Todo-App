@@ -17,7 +17,7 @@ import com.firstcrudspring.firstCrudStoreSpring.models.Todo;
 import com.firstcrudspring.firstCrudStoreSpring.repositories.TodoRepository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = {"http://localhost:5173/","https://react-todo-spring-boot-frontend-fir.vercel.app/"})
 public class TodoController {
     @Autowired
     private TodoRepository todoRepository;

@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://per550017_db_user:kPFuulEbCcfBEsut@cluster0.cbj4vkw.mongodb.net/FirstSpringBootProject?appName=Cluster0
+      uri: ${SPRING_DATA_MONGODB_URI}
   
   # DevTools auto-restart
   devtools:
